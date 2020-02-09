@@ -1,5 +1,5 @@
 /*****************************
-* CODING CHALLENGE 1
+* * CODING CHALLENGE 1
 */
 
 /*
@@ -16,7 +16,7 @@ which is calculated using the formula: BMI = mass / height^2 = mass / (height * 
 GOOD LUCK 😀
 */
 
-// Mark 
+/* // Mark 
 let markMass = 80;
 let markHeight = 1.8;
 let markBMI = markMass / (markHeight * markHeight);
@@ -28,4 +28,52 @@ let johnBMI = johnMass / (johnHiehgt * johnHiehgt)
 
 // Calculate for BMI 
 
-console.log("Is Mark's BMI higher than John's? " + (markBMI > johnBMI));
+console.log("Is Mark's BMI higher than John's? " + (markBMI > johnBMI)); */
+
+// * If Else Statments 
+
+/* let firstName = 'John'; 
+let civilStatus = 'single'; 
+
+if (civilStatus === 'married'){
+    console.log(firstName + ' is married!'); 
+} else {
+    console.log(firstName + " will hopefully marry soon...");
+}
+
+let isMarried = true; 
+if (isMarried) {
+    console.log(firstName + ' is married!');
+} else {
+    console.log(firstName + " will hopefully marry soon...");
+}
+ */
+
+/* // Mark
+let markMass = 80;
+let markHeight = 1.8;
+let markBMI = markMass / (markHeight * markHeight);
+
+// John
+let johnMass = 82;
+let johnHiehgt = 2;
+let johnBMI = johnMass / (johnHiehgt * johnHiehgt)
+
+if (johnBMI > markBMI) {
+    console.log("John's BMI is greater than Mark."); 
+} else {
+    console.log("Mark's BMI is greater than John's.")
+} */
+
+// * Boolean Logic
+
+let firstName = 'Francisco'; 
+let age = 27; 
+
+if (age < 16) {
+    console.log(firstName + " is a boy."); 
+} else if (age >= 13 && age < 20) {
+    console.log( firstName + ' is  a teenager.')
+} else {
+    console.log(firstName + " is a man."); 
+}
