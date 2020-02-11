@@ -65,7 +65,7 @@ if (johnBMI > markBMI) {
     console.log("Mark's BMI is greater than John's.")
 } */
 
-// * Boolean Logic
+/* // * Boolean Logic
 
 let firstName = 'Francisco'; 
 let age = 27; 
@@ -76,4 +76,73 @@ if (age < 16) {
     console.log( firstName + ' is  a teenager.')
 } else {
     console.log(firstName + " is a man."); 
-}
+} */
+
+/* 
+    * The Tenrary Operator 
+*/
+
+/* let firstName = 'Francisco'; 
+
+let age = 38; 
+
+- // ? The question mark is like the "If" statement, the following ":" is the
+- // ? "else" statement in an if/else statement 
+
+age >= 18 ? console.log(firstName + " drinks beer") 
+: console.log(firstName + " drinks joice"); 
+
+- // ? assisning the Ternary operator within or to a variable 
+let drink = age >= 18 ? "beer" : "juice";
+
+console.log(drink) */
+
+// * The if statement
+
+// if (age >= 18) {
+//     let drink = "beer";
+// } else {
+//     let drink = "joice"; 
+// }
+
+/* 
+    * The Switch Statement
+*/
+
+/* let job = 'instructor'; 
+
+switch (job) {
+    case "teacher":
+    case "instructor":
+        console.log(firstName + ' teaches kids how to code.');
+        break;
+    case "driver":
+        console.log(firstName + ' teaches kids how drive.');
+        break; 
+    case "designer": 
+        console.log(firstName + ' teaches kids how to design.');
+        break; 
+    default:
+        console.log(firstName + ' does something else.');
+} */
+
+// ? The statement that is true is the one that will be executed
+/* switch (true) {
+    case age < 13:
+        console.log(firstName + " is a boy"); 
+        break;
+    case age >= 13 && age < 20: 
+        console.log(firstName + " is a teenager"); 
+        break; 
+    case age >= 20 && age < 30: 
+        console.log(firstName + " is a young man");
+        break;
+    default:
+        console.log(firstName + " is a man"); 
+        break;
+} */
+
+
+/* 
+    * Truthy and falsy values and equality operators 
+*/
