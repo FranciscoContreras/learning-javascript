@@ -146,3 +146,24 @@ switch (job) {
 /* 
     * Truthy and falsy values and equality operators 
 */
+
+// ? falsy values: undefined, null, -0, "", NaN
+// ? Not exactly false but will evaluate to false
+
+// ? truthy values: Not falsy avlues
+
+/* let height;
+
+height = 23; 
+
+if (height || height === '' ) {
+    console.log("Valiable is defined"); 
+} else {
+    console.log("Variable has NOT been defined"); 
+}
+
+* Equality Operators
+
+if (height === "23") {
+    console.log('The == operator does type coercion!'); 
+} */
