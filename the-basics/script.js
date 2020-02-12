@@ -198,7 +198,7 @@ GOOD LUCK 😀
 
 // Calcualte averages
 
-let johnTeamAverage = (89 + 120 + 103) / 3; 
+/* let johnTeamAverage = (89 + 120 + 103) / 3; 
 
 let miketeamAverage = (116 + 94 + 123) / 3;
 
@@ -212,4 +212,31 @@ if (johnTeamAverage > miketeamAverage && johnTeamAverage > maryTeamAverage) {
     console.log("Mary's team had the highest average with: " + maryTeamAverage); 
 } else {
     console.log("All the teams had the same average.")
+} */
+
+
+/* 
+    * Fuctions
+*/
+
+// ? DRY Priciple, Dont Repeat Yourself
+/* function calcualteAge(birthYear) {
+    return 2020 - birthYear;  
 }
+
+let fransAge = calcualteAge(1992); 
+
+console.log(fransAge);
+
+function yearsToRetire(birthYear, firstName) {
+    let age = calcualteAge(birthYear);
+    let retirement = 65 - age; 
+    
+    if (retirement > 0) {
+        console.log(firstName + " retires in " + retirement + " years");
+    } else {
+        console.log(firstName + " is already in retirment"); 
+    }
+}
+
+yearsToRetire(1948, 'Francisco');  */
