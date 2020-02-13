@@ -240,3 +240,36 @@ function yearsToRetire(birthYear, firstName) {
 }
 
 yearsToRetire(1948, 'Francisco');  */
+
+/* 
+    * Functions statements & Expressions
+*/
+
+// ? Function declation 
+// function whatDoYouDo (job, firstName) 
+
+
+// ? Fuction Expression
+/* let whatDoYouDo = function (job, firstName) {
+    switch (job) {
+        case 'teacher':
+            return firstName + " teaches kids how to code";
+
+        case "driver": 
+            return firstName + " is a driver. ";
+
+        case 'designer': 
+            return firstName + " is a branding designer";
+
+        default:
+            return firstName + " does something else.";
+    }
+}
+
+console.log(whatDoYouDo('teacher', "John")); 
+console.log(whatDoYouDo('retired', "Mark")); */
+
+/* 
+    * Arrays
+*/
+
