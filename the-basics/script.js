@@ -273,3 +273,34 @@ console.log(whatDoYouDo('retired', "Mark")); */
     * Arrays
 */
 
+/* let names = ['John', 'James', 'Jane']; 
+let years = new Array(1990, 1969, 1948); // Almost never used, but another way to use arrays
+
+// How to retrive data from array
+console.log(names[2]);
+console.log(names.length); 
+
+// How to mutate data from array
+names[1] = 'Ben'; 
+names[names.length] = "Mary";  
+console.log(names); 
+
+// Different data types
+let john = ['john', 'smith', 1992, 'teacher', false]; 
+
+john.push('blue'); // adds to the end
+john.unshift('Mr'); // adds to the beginning
+
+console.log(john); 
+
+john.pop(); // removes element from the end
+john.shift(); // removes the first element
+console.log(john); 
+
+console.log(john.indexOf(1992)); // return position of requested element
+
+let isDesigner = john.indexOf('designer') === -1 ? 
+'John is not a designer' : "John IS a designer";
+
+console.log(isDesigner);  */
+
