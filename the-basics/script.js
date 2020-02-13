@@ -216,7 +216,7 @@ if (johnTeamAverage > miketeamAverage && johnTeamAverage > maryTeamAverage) {
 
 
 /* 
-    * Fuctions
+    * Functions
 */
 
 // ? DRY Priciple, Dont Repeat Yourself
