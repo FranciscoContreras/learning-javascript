@@ -324,25 +324,5 @@ In the end, John would like to have 2 arrays:
 GOOD LUCK 😀
 */
 
-let total = [124, 48, 268]; 
-
-function tipCalculator(amount) {
-    if (amount < 50) {
-        return amount * .2; 
-    }
-    else if (amount >= 50 && amount < 200) {
-        return amount * .15;    
-    } else {
-        return amount * .10;
-    }
-}
-
-let tipAmounts = [tipCalculator(total[0]), 
-                  tipCalculator(total[1]), 
-                  tipCalculator(total[2])];
-
-let totalAmounts = [tipAmounts[0] + total[0], 
-                    tipAmounts[1] + total[1], 
-                    tipAmounts[2] + total[2]];
-
-console.log(tipAmounts, totalAmounts);
+console.log("Hello World"); 
+console.log("This is a second test!"); 
