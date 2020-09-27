@@ -323,6 +323,3 @@ In the end, John would like to have 2 arrays:
 
 GOOD LUCK 😀
 */
-
-console.log("Hello World"); 
-console.log("This is a second test!"); 
