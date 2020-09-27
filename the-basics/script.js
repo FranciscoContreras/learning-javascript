@@ -323,3 +323,10 @@ In the end, John would like to have 2 arrays:
 
 GOOD LUCK 😀
 */
+<<<<<<< HEAD
+=======
+
+console.log("Hello World"); 
+console.log("This is a second test!"); 
+console.log ("This is a third test!"); 
+>>>>>>> ebcdf49c05bca9c439d79f466ca12eb2b6128801
